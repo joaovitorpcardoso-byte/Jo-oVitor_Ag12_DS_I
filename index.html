@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- Declara que o documento é HTML5 -->
+<html lang="pt-BR">
+<head>
+    <!-- Codificação de caracteres: permite acentos e ç -->
+    <meta charset="UTF-8">
+    <!-- Faz a página se ajustar bem ao tamanho do celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Meus sites favoritos</title>
+
+    <!-- Estilos simples para deixar a página organizada -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f4f8;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Título principal do corpo da página */
+        h1.titulo {
+            color: #1f3a5f;
+        }
+
+        /* Caixa que agrupa nome + imagem + link de cada site */
+        .site {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+            max-width: 340px;
+            margin: 20px auto;
+            padding: 10px 20px 20px;
+        }
+
+        /* Nome de cada site (tag h1, como pede a atividade) */
+        .site h1 {
+            font-size: 1.4em;
+            color: #333;
+        }
+
+        /* Imagem se ajusta à largura da caixa */
+        .site img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .site a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #0b5ed7;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Título do corpo da página, com o nome do autor -->
+    <h1 class="titulo">Meus sites favoritos: João Vitor</h1>
+
+    <!-- ===== SITE 1: YouTube ===== -->
+    <div class="site">
+        <!-- Nome do site ACIMA da imagem -->
+        <h1>YouTube</h1>
+        <!-- Imagem do site (arquivo na mesma pasta do HTML) -->
+        <img src="youtube.png" alt="Imagem do site YouTube">
+        <br>
+        <!-- Link do site ABAIXO da imagem; target="_blank" abre em nova aba -->
+        <a href="https://www.youtube.com" target="_blank">https://www.youtube.com</a>
+    </div>
+
+    <!-- ===== SITE 2: GitHub ===== -->
+    <div class="site">
+        <h1>GitHub</h1>
+        <img src="github.png" alt="Imagem do site GitHub">
+        <br>
+        <a href="https://github.com" target="_blank">https://github.com</a>
+    </div>
+
+    <!-- ===== SITE 3: Wikipedia ===== -->
+    <div class="site">
+        <h1>Wikipedia</h1>
+        <img src="wikipedia.png" alt="Imagem do site Wikipedia">
+        <br>
+        <a href="https://www.wikipedia.org" target="_blank">https://www.wikipedia.org</a>
+    </div>
+
+    <!-- ===== SITE 4: Spotify ===== -->
+    <div class="site">
+        <h1>Spotify</h1>
+        <img src="spotify.png" alt="Imagem do site Spotify">
+        <br>
+        <a href="https://www.spotify.com" target="_blank">https://www.spotify.com</a>
+    </div>
+
+    <!-- ===== SITE 5: Stack Overflow ===== -->
+    <div class="site">
+        <h1>Stack Overflow</h1>
+        <img src="stackoverflow.png" alt="Imagem do site Stack Overflow">
+        <br>
+        <a href="https://stackoverflow.com" target="_blank">https://stackoverflow.com</a>
+    </div>
+</body>
+</html>
